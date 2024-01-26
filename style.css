@@ -9,10 +9,12 @@
   background-color: white;
   border: none;
 }
-.button_language__button:hover {
-  filter: opacity(50%);
-}
+
 .button:hover {
+  filter: opacity(50%);
+  transition: filter 1s;
+}
+.active {
   filter: opacity(50%);
 }
 .mobile-menu__header {
